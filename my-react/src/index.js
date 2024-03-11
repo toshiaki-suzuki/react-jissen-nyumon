@@ -1,9 +1,13 @@
+// React関連のライブラリをインポート
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// アプリ固有のコードをインポート
 import './index.css';
 import App from './App';
+// パフォーマンス測定用のコードをインポート
 import reportWebVitals from './reportWebVitals';
 
+// Appコンポーネントをレンダリング
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
